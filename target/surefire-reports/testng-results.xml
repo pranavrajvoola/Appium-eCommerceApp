@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T15:31:55 IST" name="Suite" finished-at="2024-08-06T15:34:15 IST" duration-ms="140046">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_Hybrid.ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" class="Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-08-06T15:31:55 IST" name=" Regression Test" finished-at="2024-08-06T15:32:31 IST" duration-ms="35834">
+      <class name="Pranavraj.AppiumFrameWorkDesign.eCommerceWithoutPageObject">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerceWithoutPageObject@aba625]" started-at="2024-08-06T15:31:55 IST" name="configuration" finished-at="2024-08-06T15:32:07 IST" duration-ms="12058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method signature="ecommerce_Test3_switch_from_Apps_to_Webbrowser()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerceWithoutPageObject@aba625]" started-at="2024-08-06T15:32:07 IST" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" finished-at="2024-08-06T15:32:30 IST" duration-ms="23083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerce_Test3_switch_from_Apps_to_Webbrowser -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerceWithoutPageObject@aba625]" started-at="2024-08-06T15:32:30 IST" name="closing" finished-at="2024-08-06T15:32:31 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Pranavraj.AppiumFrameWorkDesign.eCommerceWithoutPageObject -->
+    </test> <!--  Regression Test -->
+    <test started-at="2024-08-06T15:32:31 IST" name="Errorvalidation Test" finished-at="2024-08-06T15:33:00 IST" duration-ms="28815">
+      <class name="Pranavraj.AppiumFrameWorkDesign.ErrorChecking">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:32:31 IST" name="configuration" finished-at="2024-08-06T15:32:43 IST" duration-ms="11237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:32:43 IST" name="preSetUp" finished-at="2024-08-06T15:32:43 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="FilForm_exceptional()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:32:43 IST" name="FilForm_exceptional" finished-at="2024-08-06T15:32:54 IST" duration-ms="11584" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please your name] but found [Please enter your name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please your name] but found [Please enter your name]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Pranavraj.AppiumFrameWorkDesign.ErrorChecking.FilForm_exceptional(ErrorChecking.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilForm_exceptional -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:32:55 IST" name="preSetUp" finished-at="2024-08-06T15:32:56 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="FilForm_positive()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:32:56 IST" name="FilForm_positive" finished-at="2024-08-06T15:33:00 IST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilForm_positive -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.ErrorChecking@69ee81fc]" started-at="2024-08-06T15:33:00 IST" name="closing" finished-at="2024-08-06T15:33:00 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Pranavraj.AppiumFrameWorkDesign.ErrorChecking -->
+    </test> <!-- Errorvalidation Test -->
+    <test started-at="2024-08-06T15:33:00 IST" name="End To End Test" finished-at="2024-08-06T15:34:15 IST" duration-ms="74668">
+      <class name="Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:33:00 IST" name="configuration" finished-at="2024-08-06T15:33:12 IST" duration-ms="11486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="preStep()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:33:12 IST" name="preStep" finished-at="2024-08-06T15:33:12 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preStep -->
+        <test-method signature="ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:33:12 IST" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" data-provider="getData" finished-at="2024-08-06T15:33:48 IST" duration-ms="35474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerce_Test3_switch_from_Apps_to_Webbrowser -->
+        <test-method is-config="true" signature="preStep()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:33:48 IST" name="preStep" finished-at="2024-08-06T15:33:48 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preStep -->
+        <test-method signature="ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:33:48 IST" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" data-provider="getData" finished-at="2024-08-06T15:34:14 IST" duration-ms="26618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerce_Test3_switch_from_Apps_to_Webbrowser -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@24959ca4]" started-at="2024-08-06T15:34:14 IST" name="closing" finished-at="2024-08-06T15:34:15 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid -->
+    </test> <!-- End To End Test -->
+  </suite> <!-- Suite -->
+</testng-results>

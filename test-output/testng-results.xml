@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T14:03:52 IST" name="Suite" finished-at="2024-08-06T14:05:01 IST" duration-ms="69941">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_Hybrid.ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" class="Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-08-06T14:03:52 IST" name=" Regression Test" finished-at="2024-08-06T14:03:52 IST" duration-ms="11">
+    </test> <!--  Regression Test -->
+    <test started-at="2024-08-06T14:03:52 IST" name="Errorvalidation Test" finished-at="2024-08-06T14:03:52 IST" duration-ms="2">
+    </test> <!-- Errorvalidation Test -->
+    <test started-at="2024-08-06T14:03:52 IST" name="End To End Test" finished-at="2024-08-06T14:05:01 IST" duration-ms="69612">
+      <class name="Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:03:52 IST" name="configuration" finished-at="2024-08-06T14:04:03 IST" duration-ms="11160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="preStep()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:04:03 IST" name="preStep" finished-at="2024-08-06T14:04:03 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preStep -->
+        <test-method signature="ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:04:03 IST" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" data-provider="getData" finished-at="2024-08-06T14:04:33 IST" duration-ms="30288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerce_Test3_switch_from_Apps_to_Webbrowser -->
+        <test-method is-config="true" signature="preStep()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:04:33 IST" name="preStep" finished-at="2024-08-06T14:04:34 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preStep -->
+        <test-method signature="ecommerce_Test3_switch_from_Apps_to_Webbrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:04:34 IST" name="ecommerce_Test3_switch_from_Apps_to_Webbrowser" data-provider="getData" finished-at="2024-08-06T14:05:00 IST" duration-ms="26896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerce_Test3_switch_from_Apps_to_Webbrowser -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid@52851b44]" started-at="2024-08-06T14:05:00 IST" name="closing" finished-at="2024-08-06T14:05:01 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Pranavraj.AppiumFrameWorkDesign.eCommerce_Hybrid -->
+    </test> <!-- End To End Test -->
+  </suite> <!-- Suite -->
+</testng-results>
